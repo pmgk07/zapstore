@@ -20,7 +20,7 @@ Single Instance
 - On Disk layout
   - Choices - LSM / B+ / B-ε / STB-ε
   - Using LSM to start off with for simplicity
-  - Next iter will be using B-ε as I wanted to understand more about write buffers and how well it can trade off
+  - Next iter will be using B-ε as I wanted to understand more about write buffers and how well it can trade off space & throughput for lower write latencies
   - I want to keep this pluggable so that I can switch to different implementations. Long-standing goal is to model it like MySQL storage engine as all on-disk layout trade something for some other thing
 
 Scaling Horizontally
