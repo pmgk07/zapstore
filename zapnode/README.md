@@ -20,7 +20,7 @@ Single node persistent storage.
   - PUT(key)
   - DELETE(key)
   - LIST
-* LSMStorageNode
+* LSMStorageNode impl StorageNode
   - memtable
   - flushQueue
   - lsmTree
