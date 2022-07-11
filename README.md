@@ -7,7 +7,6 @@ You seriously want to use a key value store some random guy built on the interne
 
 # Design Ramblings
 
-- Built in Go for simplicity, might switch to Rust+C later on for performance
 - APIs (for now)
   - GET(key)
   - PUT(key, value)
